@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Favorite Sport</title>
+  </head>
+  <body>
+    <h1>What's My Favorite Sport?</h1>
+    <form method="post">
+      <input type="text" name="user_input" placeholder="Enter your guess" />
+      <button type="submit">Submit</button>
+    </form>
+    {% if result %}
+      <p>{{ result }}</p>
+    {% endif %}
+  </body>
+</html>
