@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}" />
     <title>Favorite Sport</title>
   </head>
   <body>
     <h1>What's My Favorite Sport?</h1>
     <form method="post">
-      <input type="text" name="user_input" placeholder="Enter your guess" />
+      <input type="text" name="user_input" placeholder="  What's your guess?" />
       <button type="submit">Submit</button>
     </form>
     {% if result %}
