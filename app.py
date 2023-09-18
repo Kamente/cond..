@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 def index():
     messages = [
-        "Incorrect",
+        "Am i that a stranger to you?",
         "Really?",
         "Wait, How Don't you Know?"
     ]
